@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="prog5.css"?>
+<studentlist>
+<ssname> Web Lab Program:5</ssname>
+<ssname>1CR17CS119</ssname>
+<ssname>S RAGHAV TEJAS</ssname>
+
+<student>
+<Name>RAGHAV TEJAS</Name>
+<USN>1CR17CS119</USN>
+<College-Name>CMR INSTITUTE OF TECHNOLOGY</College-Name>
+<Branch>CSE</Branch>
+<Year-Of-Joining>2017</Year-Of-Joining>
+<Email>srag17cs@cmrit.ac.in</Email>
+</student>
+
+<student>
+<Name>S. ABHISHEK</Name>
+<USN>1CR17CS118</USN>
+<College-Name>CMR INSTITUTE OF TECHNOLOGY</College-Name>
+<Branch>CSE</Branch>
+<Year-Of-Joining>2017</Year-Of-Joining>
+<Email>sabh17cs@cmrit.ac.in</Email>
+</student>
+
+<student>
+<Name>SHRIDARAN S</Name>
+<USN>1CR17CS122</USN>
+<College-Name>CMR INSTITUTE OF TECHNOLOGY </College-Name>
+<Branch>CSE</Branch>
+<Year-Of-Joining>2017</Year-Of-Joining>
+<Email>shri17cs@cmrit.ac.in</Email>
+</student>
+
+</studentlist>

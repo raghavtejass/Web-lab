@@ -1,0 +1,42 @@
+<html> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initialscale=1.0"> 
+    <title>Program 3-Text Size</title> 
+</head> 
+<body> 
+    <title>Program 3</title>  
+    <p><b>Name : S Raghav Tejas</b></p>
+    <b>USN : 1CR17CS119</b>     
+    <p id = "tex" style="font-size: 5px; color: blue;"><p> 
+    <script>     
+        var x = document.getElementById("tex");     
+        var font = 5;     
+        var flag = 0;     
+        function increment()
+        {     
+            font = font + 5; 
+            x.innerHTML="TEXT GROWING"; 
+            x.setAttribute("style","font-size:"+font+"pt;color:blue");         
+            if(font==50)  
+                   flag=1;  
+        } 
+        function decrement()
+        {   
+            font = font-5; 
+            x.innerHTML="TEXT SHRINKING"; 
+            x.setAttribute("style","font-size:"+font+"pt;color:red");         
+            if(font==5)
+                flag=0; 
+        }   
+        var time = setInterval(function()
+            {         
+                if(flag==1)      
+                       decrement(); 
+               if(flag==0)      
+              increment(); 
+            } 
+            ,1000); 
+</script> 
+</body> 
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>S Raghav Tejas-1CR17CS119</title>
+<style>
+#tab2{
+display:flex;
+justify-content:center;
+
+}
+#tab1{
+display:flex;
+
+justify-content:center;
+
+}
+th:nth-child(1) {
+background-color: rgb(240,100,100); 
+width:80px;
+}
+th:nth-child(2) {
+background-color: rgb(240,150,50);
+width:80px;
+}
+th:nth-child(3) {
+background-color: rgb(240,200,50);
+width:80px;
+}
+th:nth-child(4) {
+background-color: rgb(100,240,50);
+width:80px;
+}
+th:nth-child(5) {
+background-color: rgb(50,240,240);
+width:80px;
+}
+td:nth-child(1) {
+background-color: rgb(240,100,100);
+width:80px;
+}
+td:nth-child(2) {
+background-color: rgb(240,150,50);
+width:80px;
+}
+td:nth-child(3) {
+background-color: rgb(240,200,50);
+width:80px;
+}
+td:nth-child(4) {
+background-color: rgb(100,240,50);
+width:80px;
+width:80px;
+}
+td:nth-child(5) {
+background-color: rgb(50,240,240);
+width:80px;
+}
+tr{
+	text-align: center;
+	color: black;
+
+}
+</style>
+</head>
+<body onload="tables();">
+<h1 style="text-align: center; color: red;">Web Lab Program 2(extra)</h1>
+<h1 style="text-align: center; color: red;">Multiplication Tables chart</h1>
+<h3 style="text-align: center; color: red;">Name: S Raghav Tejas</h3>
+<h3 style="text-align: center; color: red;">USN: 1CR17CS119</h3>
+<div id="tab1"  >
+</div>
+<p></p>
+<div id="tab2"  >
+</div>
+<script>
+function tables() {
+var result1 = "<table><tr><th>1X</th><th>2X</th><th>3X</th><th>4X</th><th>5X</th></tr>";
+for(i=1;i<=10;i++){
+result1 += "<tr><td>"+"1 x "+i+" ="+1*i+"</td><td>"+"2 x "+i+" ="+2*i+"</td><td>"+"3 x "+i+" ="+3*i+"</td><td>"+"4 x "+i+" ="+4*i+"</td><td>"+"5 x "+i+" ="+5*i+"</td></tr>";
+}
+result1 += "</table>";
+var result2 = "<table><tr><th>6X</th><th>7X</th><th>8X</th><th>9X</th><th>10X</th></tr>";
+for(i=1;i<=10;i++){
+result2 += "<tr><td>"+"6 x "+i+" ="+6*i+"</td><td>"+"7 x "+i+" ="+7*i+"</td><td>"+"8 x "+i+" ="+8*i+"</td><td>"+"9 x "+i+" ="+9*i+"</td><td>"+"10 x "+i+" ="+10*i+"</td></tr>";
+}
+result2 += "</table>";
+document.getElementById("tab1").innerHTML = result1;
+document.getElementById("tab2").innerHTML = result2;
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Fibonacci Series</title> 
+</head> 
+<body> 
+ <div style = "font-family: sans-serif; color: red; text-align: center;"> 
+ <h1>Program 4-Extra<br>
+ Fibonacci Series of N Numbers</h1> 
+ <h2>Name: S Raghav Tejas</h2> 
+ <h2>USN :1CR17CS119</h2> 
+ <script type="text/javascript">  
+ 	var n = prompt("Enter the Number of elements desired")  
+ 	document.write("The Number of elements is "+n+"<br>")  
+ 	document.write("The Fibonacci Series is : <br>") 
+ 	var a = 0, b = 1, c;          
+ 	if (n == 1)              
+ 		document.write(" "+a)         
+ 	else if(n == 2)          
+ 		document.write(" "+a+", "+b) 
+    else 
+    {   
+         document.write(" "+a+", "+b)          
+         for (var i = 2; i < n; i++)  
+         {  
+             	c = a + b;              	
+             	document.write(", "+c)                 	
+             	a = b;               	
+             	b = c;  
+         }      
+    } 
+ </script> 
+</div> 
+</body> 
+</html> 

@@ -1,0 +1,24 @@
+passengers {
+	font-family: 'cambria';margin-top: 10px ;background-color: yellow;} 
+spname{
+	text-align: center;display: block;font-size: 20pt;font-weight: bold;color: red;} 
+passenger {
+	border: 5px solid red ;width:400px;display: inline-block;margin-bottom: 30pt;margin-left: 20pt;} 
+pname {
+	display: block;font-size: 15pt;font-weight: bold;text-transform: uppercase;color: red;} 
+airline:before {
+	content: "Airline: ";font-size: 18pt;font-weight: bold;} 
+airline {
+	display: block;font-size: 18pt;margin-left: 20pt;text-transform: uppercase;} 
+passport:before {
+	content: "Passport: ";font-size: 18pt;font-weight: bold;} 
+passport {
+	display: block;font-size: 18pt;margin-left: 20pt;}
+visa:before {
+	content: "Visa: ";font-size: 18pt;font-weight: bold;} 
+visa {
+	display: block;font-size: 18pt;margin-left: 20pt;} 
+addr:before {
+	content: "Address: ";font-size: 18pt;font-weight: bold;} 
+addr {
+	display: block;font-size: 18pt;margin-left: 20pt;} 

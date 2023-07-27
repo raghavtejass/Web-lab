@@ -1,0 +1,25 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Reverse a number</title> 
+</head> 
+<body> 
+ <div style = "font-family: sans-serif; color: red; text-align: center;"> 
+ <h1>Program 4-B<br>
+ Reverse of a Number </h1> 
+ <h2>Name: S Raghav Tejas</h2> 
+ <h2>USN: 1CR17CS119</h2> 
+ <script type="text/javascript">  
+ 	var num = prompt("Enter a number")  
+ 	document.write("The given number is : "+num+"<br/>");  
+ 	var rem , rev = 0;  
+ 	while(num != 0) 
+ 	{ 
+ 		rem = num % 10;
+ 		rev = rev * 10 + rem;  	
+ 		num = Math.floor(num/10);  } 
+ 		document.write("The reverse of the given number is "+rev); 
+ </script> 
+</div> 
+</body> 
+</html> 

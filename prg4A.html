@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+ 	<title>Left Most Vowel</title> 
+</head> 
+<body> 
+ 	<div style = "font-family: sans-serif; color: red; text-align: center;"> 
+ 	<h1>Program 4-A<br>
+ 	Position of Left Most Vowel </h1> 
+ 	<h2>Name: S Raghav Tejas</h2> 
+ 	<h2>USN :1CR17CS119</h2> 
+ 	<script type="text/javascript">  	 	
+ 		var str = prompt("Enter the string")  	 	
+ 		document.write("The String is "+str+"<br/>")  	 	
+ 		str = str.toUpperCase() 
+ 	 	document.write("The converted String is: "+str+"<br/>")  	 	
+ 	 	var n = str.length 
+ 	 	document.write("The length of the String is "+n+"<br/>") 
+ 	 	for(i=0;i<n;i++) 
+ 	 	{ 
+			ch = str.charAt(i) 
+ 	 	 	if(ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') 
+ 	 	 	 	break; 
+		} 
+		if(i<n)
+			document.write("Leftmost vowel is "+ch+" and its position is "+(i+1)) 		 	 	
+		else  	 	 	
+			document.write("Vowel not found") 
+ 	</script> 
+</div> 
+</body> 
+</html> 
+
+ 	 	
